@@ -1,0 +1,103 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all .5s;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background:#e8e9ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top{
+    width: 100%;
+    height: 300px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    color: #4a4a4a;
+}
+.top h1{
+    font-family: sans-serif;
+
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+}
+.down div{
+    width: 20%;
+    height: 200px;
+    background: #fff;
+}
+.eventKey:hover{
+    transform:translatey(-20%);
+    box-shadow: 0px 50px 50px rgba(152, 152, 255, 0.486);
+}
+.eventL:hover{
+    transform:translatey(-20%);
+    box-shadow: 0px 50px 50px rgba(152, 152, 255, 0.486);
+
+}
+.eventW:hover{
+    transform:translatey(-20%);
+    box-shadow: 0px 50px 50px rgba(152, 152, 255, 0.486);
+
+}
+.eventcode:hover{
+    transform:translatey(-20%);
+    box-shadow: 0px 50px 50px rgba(152, 152, 255, 0.486);
+
+}
+
+.down .topEV{
+    width: 100%;
+    height:30%;
+    background:#b6dbee;
+    color: rgba(0, 0, 0, 0.473);
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.down .downEV{
+    width: 100%;
+    height:70%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+    font-size: 50px;
+}
+
+
+.Tcointainer{
+    width: 100%;
+    height: 100vh;
+    background:#e8e9ed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.alert{
+    font-size: 40px;
+    padding: 20px;
+    background: #fff;
+border-radius: 10px;
+    font-family: monospace;
+}
